@@ -1,0 +1,16 @@
+Test: Wriggling 1 node around with 400 nodes
+Enable advanced paint instrumentation (slow): True
+
+From 6-18 seconds
+
+10465 ms  Scripting
+89 ms  Rendering
+117 ms  Painting
+262 ms  System
+1118 ms  Idle
+12052 ms  Total
+
+In a single timer fire:
+applyCollisions: 7.17ms
+
+1 call of apply collisions
