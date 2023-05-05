@@ -1,7 +1,7 @@
 # 2D distance collisions
 
 Test: Wriggling 1 node around with 400 nodes\
-Enable advanced paint instrumentation (slow): True\
+Enable advanced paint instrumentation (slow): True
 
 From 2-14 seconds
 
