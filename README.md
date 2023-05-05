@@ -1,6 +1,20 @@
-# WCNL
- A constraint based layout engine for node graphs
+# 2D distance collisions
 
-WCNL stands for Web Constraint Node Layout. WCNL is a constraint based layout engine for node graphs.
+Test: Wriggling 1 node around with 400 nodes
+Enable advanced paint instrumentation (slow): True
 
-Click [here](https://lochyj.github.io/WCNL/)
+From 2-14 seconds
+
+11692 ms  Scripting
+54 ms  Rendering
+69 ms  Painting
+153 ms  System
+12 ms  Idle
+11982 ms  Total
+
+In a single timer fire:
+applyCollisions: 5.66ms
+applyCollisions: 2.66ms
+applyCollisions: 6.25ms
+
+3 calls of apply collisions
