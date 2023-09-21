@@ -1,4 +1,4 @@
-import PIXI from "../lib/pixi.mjs"
+import PIXI from "../lib/pixi.min.mjs"
 
 import math_helper from "./math.js"
 
